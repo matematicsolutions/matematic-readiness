@@ -54,7 +54,7 @@ Audyt jest **prowadzony** przez konsultanta (lub przez Claude w skillu `matemati
 
 ## Bramki publikacji wnioskow audytu
 
-1. Marko-pl review pelnego raportu PRZED przekazaniem klientowi.
+1. wewnetrzny review pelnego raportu PRZED przekazaniem klientowi.
 2. Inspektor ochrony danych (klienta lub partnera MateMatic) potwierdza wnioski RODO/AI Act.
 3. Managing partner kancelarii podpisuje raport.
 

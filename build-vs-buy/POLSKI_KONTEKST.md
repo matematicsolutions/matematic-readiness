@@ -37,7 +37,7 @@ Harvey, CoCounsel, Ruli AI - hostowane w USA. Aby polska kancelaria mogla wysyla
 
 **DPF** (2023) zastapil Privacy Shield. **Sad UE T-553/23 La Quadrature du Net** (decyzja 2025-09-03) - **DPF utrzymany w mocy**, transfer do USA pod DPF jest legalny w warunkach DPF.
 
-Mit "Schrems III obala DPF" - **NIEPRAWDA na 2026-05** (patrz [[reference_ai_act_dpf_fakty_2026-05]]).
+Mit "Schrems III obala DPF" - **NIEPRAWDA na 2026-05** (patrz fakty DPF i AI Act na 2026-05).
 
 ---
 

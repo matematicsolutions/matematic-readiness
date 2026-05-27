@@ -18,7 +18,7 @@ Repo prowadzi [MateMatic Solutions](https://matematicsolutions.com). To jest **l
 
 - **Neutralnosc** - audyt nie sprzedaje Patrona ani zadnego konkretnego produktu. Pisany z perspektywy "co kancelaria potrzebuje wiedziec", nie "co kupic".
 - **Polski kontekst regulacyjny first** - kazda rekomendacja ma odniesienie do PoA art. 6 / URP art. 3 / RODO / AI Act (CELEX 32024R1689). Bez referencji = bez wartosci.
-- **Bez marketingu** - jezeli czytasz draft i brzmi jak sales deck, jest zly. Marko-pl loop 2x runda PRZED commit ([feedback w MEMORY MateMatic](https://github.com/matematicsolutions)).
+- **Bez marketingu** - jezeli czytasz draft i brzmi jak sales deck, jest zly. wewnetrzny review tresci 2x runda PRZED commit.
 
 ## Struktura repo
 
@@ -54,7 +54,7 @@ Na Windows zamiast symlinka - kopia folderu.
 - **CELEX dla AI Act** (32024R1689), **art. dla RODO/PoA/URP** - precyzyjne cytaty.
 - **5 polskich wymiarow** w audicie (nie kopiuj 9 NIST AI RMF) - to wlasna ramka MateMatic.
 - **Bez "rozwiazan w 4 krokach"**, bez "transformacji", bez "innowacyjnosci" - sprawdz lista anti-patternow w [CONSTITUTION.md](./CONSTITUTION.md).
-- **Marko-pl 2x runda** przed kazdym commitem zmieniajacym tresc audytu.
+- **wewnetrzny review 2x runda** przed kazdym commitem zmieniajacym tresc audytu.
 - **Build vs Buy nie zachwala nikogo** - Patron ma byc jedna z 9 platform z neutralnym scoringiem, nie "rekomendacja MateMatic".
 - **Bez polskich znakow w commit messages**.
 
