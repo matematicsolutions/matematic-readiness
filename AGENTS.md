@@ -62,7 +62,7 @@ Na Windows zamiast symlinka - kopia folderu.
 
 - **NIE wpisuj rekomendacji konkretnego produktu** w audicie. Audyt mowi "twoja kancelaria jest na poziomie N, brakuje X i Y" - decyzja Build vs Buy jest osobnym dokumentem.
 - **NIE dodawaj US-only platform** bez polskiej alternatywy w porownaniu.
-- **NIE obniżaj poziomu polskim kancelariom** "zeby pasowalo do framework upstream" - rzeczywistosc jest taka jaka jest (wiekszosc na poziomie 1-2), to wlasnie wartosc tego audytu.
+- **Do not lower the bar for law firms** to "make them fit the upstream framework" - reality is what it is (most sit at level 1-2), and that is precisely the value of this audit.
 - **NIE commituj prawdziwych danych kancelarii** w `examples/` - tylko zanonimizowane archetypy.
 
 ## Zrodla prawdy (kolejnosc czytania)
