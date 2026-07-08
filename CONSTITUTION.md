@@ -1,63 +1,63 @@
-# Konstytucja matematic-readiness
+# matematic-readiness Constitution
 
-**Wersja**: 1.0.0
-**Data**: 2026-05-21
+**Version**: 1.0.0
+**Date**: 2026-05-21
 
-## Misja
+## Mission
 
-Daj polskiej kancelarii narzedzie do **realistycznej** oceny gdzie jest na drodze do bezpiecznego wdrozenia AI - i podstawy do decyzji **build vs buy** uwzgledniajacej polskie ryzyko regulacyjne, nie amerykanskie.
+Give a law firm a tool for a **realistic** assessment of where it stands on the path to a safe AI deployment - and a basis for a **build vs buy** decision that accounts for Polish regulatory risk, not American risk.
 
-## Artykul 1 - Neutralnosc dostawcow
+## Article 1 - Vendor neutrality
 
-Audyt NIE rekomenduje konkretnego produktu jako pierwszej odpowiedzi. Audyt mowi **gdzie jestes** i **co konkretnie zrobic**. Wybor narzedzia (Patron, Harvey, CoCounsel, Lexis AI, Ruli, Cline + Ollama, ChatGPT Enterprise) jest **wtorny** wobec zdefiniowania use case ow i ryzyka.
+The audit does NOT recommend a specific product as its first answer. The audit says **where you are** and **what specifically to do**. The choice of tool (Patron, Harvey, CoCounsel, Lexis AI, Ruli, Cline + Ollama, ChatGPT Enterprise) is **secondary** to defining the use cases and the risk.
 
-Wyjatek: framework Build vs Buy moze wskazac konkretne platformy jako przyklady, ale ZAWSZE z drugiej strony alternatyw i jawnie nazwanymi ograniczeniami kazdej.
+Exception: the Build vs Buy framework may name specific platforms as examples, but ALWAYS alongside alternatives and with the explicitly stated limitations of each.
 
-## Artykul 2 - RODO i tajemnica zawodowa to pierwsze pytania, nie ostatnie
+## Article 2 - GDPR and professional secrecy are the first questions, not the last
 
-Audyt zaczyna kazdy wymiar od pytan o ochrone danych klienta. NIE przesuwamy "dyskusji RODO" do osobnego rozdzialu - to **bazowa warstwa** kazdej decyzji o AI.
+The audit begins every dimension with questions about protecting client data. We do NOT move the "GDPR discussion" into a separate chapter - it is the **base layer** of every AI decision.
 
-## Artykul 3 - Polski kontekst regulacyjny
+## Article 3 - Polish regulatory context
 
-Audyt powoluje sie na konkretne polskie i unijne akty:
+The audit cites specific Polish and EU acts:
 
-- **RODO** - rozporzadzenie 2016/679 (art. 5, 25, 30, 32, 44+).
-- **Ustawa Prawo o adwokaturze** art. 6 - tajemnica adwokacka.
-- **Ustawa o radcach prawnych** art. 3 - tajemnica radcy prawnego.
-- **Kodeks Etyki Adwokackiej** (KEA) - obowiazki etyczne.
-- **Kodeks Etyki Zawodowej Radcy Prawnego** (KEZRP).
-- **AI Act** - rozporzadzenie 2024/1689 (CELEX 32024R1689), wejscie w zycie etapami 2025-2026.
-- **DPF** (Data Privacy Framework) - decyzja Komisji UE 2023, podtrzymana przez Sad UE 2025-09-03.
+- **GDPR** - Regulation 2016/679 (art. 5, 25, 30, 32, 44+).
+- **Law on the Bar (Prawo o adwokaturze)** art. 6 - advocate's professional secrecy.
+- **Law on Legal Advisers (Ustawa o radcach prawnych)** art. 3 - legal adviser's professional secrecy.
+- **Code of Advocate Ethics (KEA)** - ethical obligations.
+- **Code of Professional Ethics for Legal Advisers (KEZRP)**.
+- **AI Act** - Regulation 2024/1689 (CELEX 32024R1689), entering into force in stages 2025-2026.
+- **DPF** (Data Privacy Framework) - EU Commission decision 2023, upheld by the EU General Court 2025-09-03.
 
-Audyt CYTUJE konkretne artykuly. Tone "uwaga, RODO!" bez wskazania artykulu jest **niedopuszczalny**.
+The audit CITES specific articles. A "watch out, GDPR!" tone without naming the article is **unacceptable**.
 
-## Artykul 4 - Scoring opisowy, nie liczbowy bez podstawy
+## Article 4 - Descriptive scoring, not numeric without basis
 
-Audyt uzywa scoring 1-5 per wymiar, ale **kazda ocena ma uzasadnienie tekstowe**. Liczba bez uzasadnienia = pieczatka pseudonaukowa. Inspektor ochrony danych ma czytac uzasadnienie, nie sume punktow.
+The audit uses 1-5 scoring per dimension, but **every score has a textual justification**. A number without justification is a pseudo-scientific rubber stamp. The data protection officer is meant to read the justification, not the sum of points.
 
-## Artykul 5 - Audyt to dialog, nie ankieta
+## Article 5 - The audit is a dialogue, not a questionnaire
 
-Audyt jest **prowadzony** przez konsultanta (lub przez Claude w skillu `matematic-readiness-audit`), NIE wypelniony samodzielnie przez zarzad kancelarii w 5 minut. Rzetelna odpowiedz na pytanie "Czy zespol rozumie czym jest prompt injection?" wymaga rozmowy, nie checkboxa.
+The audit is **conducted** by a consultant (or by Claude in the `matematic-readiness-audit` skill), NOT filled in independently by the firm's management in 5 minutes. An honest answer to "Does the team understand what prompt injection is?" requires a conversation, not a checkbox.
 
-## Antygoals (czego NIE robimy)
+## Anti-goals (what we do NOT do)
 
-- NIE sprzedajemy konkretnego produktu w audytie. Audyt jest neutralny.
-- NIE wystawiamy certyfikatu zgodnosci z RODO/AI Act - to nie nasza rola.
-- NIE oceniamy konkretnego use case ow prawnych (np. "czy moge wgrac umowe do Claude") - to wymaga prawnika.
-- NIE robimy audytu dla zarzadu klienta kancelarii - audytujemy KANCELARIE, nie jej klientow.
+- We do NOT sell a specific product in the audit. The audit is neutral.
+- We do NOT issue a GDPR/AI Act compliance certificate - that is not our role.
+- We do NOT assess specific legal use cases (e.g. "can I upload a contract to Claude") - that requires a lawyer.
+- We do NOT audit the firm's client's management - we audit the FIRM, not its clients.
 
 ## Roles
 
-- **Audytor**: konsultant MateMatic albo licencjonowany inspektor ochrony danych z partnerow.
-- **Walidator**: rzetelny prawnik kancelarii - sprawdza ze wnioski audytu nie kola sie z polityka kancelarii.
-- **Decydent**: managing partner kancelarii - decyduje o priorytetach z mapy progresji.
+- **Auditor**: a MateMatic consultant or a licensed data protection officer from partners.
+- **Validator**: a diligent lawyer at the firm - checks that the audit's conclusions do not conflict with the firm's policy.
+- **Decision-maker**: the firm's managing partner - decides on priorities from the progression map.
 
-## Bramki publikacji wnioskow audytu
+## Gates for publishing audit conclusions
 
-1. wewnetrzny review pelnego raportu PRZED przekazaniem klientowi.
-2. Inspektor ochrony danych (klienta lub partnera MateMatic) potwierdza wnioski RODO/AI Act.
-3. Managing partner kancelarii podpisuje raport.
+1. Internal review of the full report BEFORE handing it to the client.
+2. A data protection officer (of the client or a MateMatic partner) confirms the GDPR/AI Act conclusions.
+3. The firm's managing partner signs off on the report.
 
-## Dziennik szlifu
+## Refinement log
 
-- **2026-05-21** v1.0.0 - ratyfikacja. Cherry-pick patternu OneC0de/legal-ai-architect-toolkit (MIT). Polskie wymiary, scoring rubric, polski kontekst regulacyjny.
+- **2026-05-21** v1.0.0 - ratification. Cherry-pick of the OneC0de/legal-ai-architect-toolkit pattern (MIT). Polish dimensions, scoring rubric, Polish regulatory context.

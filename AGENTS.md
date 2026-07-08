@@ -1,44 +1,44 @@
 # AGENTS.md - matematic-readiness
 
-Plik standardu [agents.md](https://agents.md) (Linux Foundation / Agentic AI Foundation) - kanoniczne instrukcje dla agentow AI pracujacych z tym repozytorium. Czytany natywnie przez Cursor, Codex (OpenAI), Jules (Google), Devin / Windsurf, Aider, Amp, Factory, GitHub Copilot.
+An [agents.md](https://agents.md) standard file (Linux Foundation / Agentic AI Foundation) - canonical instructions for AI agents working with this repository. Read natively by Cursor, Codex (OpenAI), Jules (Google), Devin / Windsurf, Aider, Amp, Factory, GitHub Copilot.
 
-## Cel projektu
+## Project goal
 
-`matematic-readiness` to **otwarty pakiet narzedzi do oceny gotowosci polskiej kancelarii do AI** + framework decyzyjny **Build vs Buy** z polskim kontekstem regulacyjnym (RODO, tajemnica zawodowa, AI Act art. 6).
+`matematic-readiness` is an **open toolkit for assessing a law firm's AI readiness** + a **Build vs Buy** decision framework with a Polish regulatory context (GDPR, professional secrecy, AI Act art. 6).
 
-Trzy artefakty:
+Three artifacts:
 
-1. **Audyt gotowosci** ([audit/](./audit/)) - 30 pytan w 5 polskich wymiarach (RODO / tajemnica zawodowa / AI Act / kompetencje zespolu / architektura), scoring 1-5, mapa progresji 5-poziomowa (Eksplorator -> Adopter -> Konstruktor -> Architekt -> Orkiestrator).
-2. **Build vs Buy** ([build-vs-buy/](./build-vs-buy/)) - 8 kryteriow decyzyjnych z waga, porownanie 9 platform (Patron / Harvey / CoCounsel / Lexis AI / Ruli / ChatGPT Enterprise / Claude Max / LEX AI / Mecenas), TCO 3-letni.
-3. **Skill Claude Code** ([skills/matematic-readiness-audit/](./skills/matematic-readiness-audit/)) - przeprowadza audyt przez prompty, produkuje raport `.docx`.
+1. **Readiness audit** ([audit/](./audit/)) - 30 questions across 5 Polish dimensions (GDPR / professional secrecy / AI Act / team competence / architecture), 1-5 scoring, a 5-level progression map (Explorer -> Adopter -> Constructor -> Architect -> Orchestrator).
+2. **Build vs Buy** ([build-vs-buy/](./build-vs-buy/)) - 8 weighted decision criteria, comparison of 9 platforms (Patron / Harvey / CoCounsel / Lexis AI / Ruli / ChatGPT Enterprise / Claude Max / LEX AI / Mecenas), 3-year TCO.
+3. **Claude Code skill** ([skills/matematic-readiness-audit/](./skills/matematic-readiness-audit/)) - runs the audit through prompts, produces a `.docx` report.
 
-## Kontekst MateMatic (TWARDE OGRANICZENIA)
+## MateMatic context (HARD CONSTRAINTS)
 
-Repo prowadzi [MateMatic Solutions](https://matematicsolutions.com). To jest **leadgenowy artefakt drabiny sprzedazowej** (audyt 2-5k -> Konstytucja AI 15-40k -> wdrozenie 30-150k) - ale **NIE pitch deck**. Twarda zasada redakcyjna:
+The repo is maintained by [MateMatic Solutions](https://matematicsolutions.com). This is a **lead-generation artifact in the sales ladder** (audit 2-5k -> AI Constitution 15-40k -> deployment 30-150k) - but **NOT a pitch deck**. Hard editorial rule:
 
-- **Neutralnosc** - audyt nie sprzedaje Patrona ani zadnego konkretnego produktu. Pisany z perspektywy "co kancelaria potrzebuje wiedziec", nie "co kupic".
-- **Polski kontekst regulacyjny first** - kazda rekomendacja ma odniesienie do PoA art. 6 / URP art. 3 / RODO / AI Act (CELEX 32024R1689). Bez referencji = bez wartosci.
-- **Bez marketingu** - jezeli czytasz draft i brzmi jak sales deck, jest zly. wewnetrzny review tresci 2x runda PRZED commit.
+- **Neutrality** - the audit does not sell Patron or any specific product. Written from the perspective of "what a law firm needs to know", not "what to buy".
+- **Polish regulatory context first** - every recommendation references PoA art. 6 / URP art. 3 / GDPR / AI Act (CELEX 32024R1689). No reference = no value.
+- **No marketing** - if you read a draft and it sounds like a sales deck, it is wrong. Internal content review, 2 rounds, BEFORE commit.
 
-## Struktura repo
+## Repo structure
 
 ```
-audit/                     - 30 pytan w 5 wymiarach + scoring rubric + interpretacja
-build-vs-buy/              - 8 kryteriow + decision tree + porownanie 9 platform + TCO
+audit/                     - 30 questions across 5 dimensions + scoring rubric + interpretation
+build-vs-buy/              - 8 criteria + decision tree + comparison of 9 platforms + TCO
 skills/
-  matematic-readiness-audit/ - skill Claude Code do przeprowadzenia audytu
-examples/                  - zanonimizowane przyklady raportow audytu
-CONSTITUTION.md            - zasady redakcyjne (neutralnosc, polski kontekst, anti-pitch)
-CHANGELOG.md               - historia wersji (v0.1.0-alpha)
+  matematic-readiness-audit/ - Claude Code skill for running the audit
+examples/                  - anonymized examples of audit reports
+CONSTITUTION.md            - editorial rules (neutrality, Polish context, anti-pitch)
+CHANGELOG.md               - version history (v0.1.0-alpha)
 ```
 
-## Build i test
+## Build and test
 
-Repo to dokumenty Markdown + skill Claude Code. Brak kompilacji.
+The repo is Markdown documents + a Claude Code skill. No compilation.
 
-"Test" = przeprowadzenie audytu na **3 archetypach kancelarii** (solo praktyk / kancelaria 5-15 osob / kancelaria 50+) - wynik musi byc rozny dla kazdego (jezeli wszystkie wychodza "poziom 1" to scoring jest zly).
+"Test" = running the audit against **3 law firm archetypes** (solo practitioner / firm of 5-15 people / firm of 50+) - the result must differ for each (if they all come out at "level 1", the scoring is wrong).
 
-Instalacja skill (Claude Code):
+Skill installation (Claude Code):
 
 ```bash
 cd ~/.claude/skills/
@@ -46,43 +46,43 @@ git clone https://github.com/matematicsolutions/matematic-readiness
 ln -s matematic-readiness/skills/matematic-readiness-audit matematic-readiness-audit
 ```
 
-Na Windows zamiast symlinka - kopia folderu.
+On Windows, use a folder copy instead of a symlink.
 
-## Zasady pisania (CRITICAL)
+## Writing rules (CRITICAL)
 
-- **Polski jezyk wszedzie** - bez kalek z angielskich materialow (audit upstream byl US-centric, my piszemy pod PL).
-- **CELEX dla AI Act** (32024R1689), **art. dla RODO/PoA/URP** - precyzyjne cytaty.
-- **5 polskich wymiarow** w audicie (nie kopiuj 9 NIST AI RMF) - to wlasna ramka MateMatic.
-- **Bez "rozwiazan w 4 krokach"**, bez "transformacji", bez "innowacyjnosci" - sprawdz lista anti-patternow w [CONSTITUTION.md](./CONSTITUTION.md).
-- **wewnetrzny review 2x runda** przed kazdym commitem zmieniajacym tresc audytu.
-- **Build vs Buy nie zachwala nikogo** - Patron ma byc jedna z 9 platform z neutralnym scoringiem, nie "rekomendacja MateMatic".
-- **Bez polskich znakow w commit messages**.
+- **Polish language throughout** - no calques from English-language materials (the upstream audit was US-centric; we write for the Polish market).
+- **CELEX for the AI Act** (32024R1689), **article numbers for GDPR/PoA/URP** - precise citations.
+- **5 Polish dimensions** in the audit (do not copy the 9 NIST AI RMF ones) - this is MateMatic's own framework.
+- **No "solutions in 4 steps"**, no "transformation", no "innovativeness" - check the anti-pattern list in [CONSTITUTION.md](./CONSTITUTION.md).
+- **Internal review, 2 rounds** before every commit that changes the audit content.
+- **Build vs Buy does not praise anyone** - Patron is to be one of 9 platforms with neutral scoring, not a "MateMatic recommendation".
+- **No Polish diacritics in commit messages**.
 
-## Czego NIE robic (twarde reguly)
+## What NOT to do (hard rules)
 
-- **NIE wpisuj rekomendacji konkretnego produktu** w audicie. Audyt mowi "twoja kancelaria jest na poziomie N, brakuje X i Y" - decyzja Build vs Buy jest osobnym dokumentem.
-- **NIE dodawaj US-only platform** bez polskiej alternatywy w porownaniu.
+- **Do NOT put a specific product recommendation** in the audit. The audit says "your firm is at level N, X and Y are missing" - the Build vs Buy decision is a separate document.
+- **Do NOT add US-only platforms** without a Polish alternative in the comparison.
 - **Do not lower the bar for law firms** to "make them fit the upstream framework" - reality is what it is (most sit at level 1-2), and that is precisely the value of this audit.
-- **NIE commituj prawdziwych danych kancelarii** w `examples/` - tylko zanonimizowane archetypy.
+- **Do NOT commit real law firm data** in `examples/` - only anonymized archetypes.
 
-## Zrodla prawdy (kolejnosc czytania)
+## Sources of truth (reading order)
 
-1. [README.md](./README.md) - opis dla ludzi
-2. [CONSTITUTION.md](./CONSTITUTION.md) - zasady redakcyjne
-3. [audit/](./audit/) - 30 pytan + rubryka
-4. [build-vs-buy/](./build-vs-buy/) - 8 kryteriow + porownanie platform
-5. [CHANGELOG.md](./CHANGELOG.md) - historia wersji
+1. [README.md](./README.md) - description for humans
+2. [CONSTITUTION.md](./CONSTITUTION.md) - editorial rules
+3. [audit/](./audit/) - 30 questions + rubric
+4. [build-vs-buy/](./build-vs-buy/) - 8 criteria + platform comparison
+5. [CHANGELOG.md](./CHANGELOG.md) - version history
 
-## Kompatybilnosc agentow
+## Agent compatibility
 
-Standard [AGENTS.md](https://agents.md). Dla Claude Code dodatkowo plik [CLAUDE.md](./CLAUDE.md).
+The [AGENTS.md](https://agents.md) standard. For Claude Code there is an additional [CLAUDE.md](./CLAUDE.md) file.
 
-Skill `matematic-readiness-audit` pisany pod Claude Code, ale prompty sa agent-agnostic - przeniesienie na Cursor / Codex wymaga tylko adaptacji frontmatter.
+The `matematic-readiness-audit` skill is written for Claude Code, but the prompts are agent-agnostic - porting to Cursor / Codex requires only frontmatter adaptation.
 
-## Licencja i atrybucja
+## License and attribution
 
-- **CC BY-SA 4.0** - patrz [LICENSE](./LICENSE). Mozesz kopiowac, modyfikowac, sprzedawac wdrozenia. Wymagamy atrybucji MateMatic + udostepnienia pochodnych na tej samej licencji.
-- Pattern strukturalny (Maturity Model 5-poziomowy, Build vs Buy 8 kryteriow): cherry-pick z [OneC0de/legal-ai-architect-toolkit](https://github.com/OneC0de/legal-ai-architect-toolkit) (MIT, autorka Donna Scaffidi).
-- Tresc napisana od zera pod polski rynek.
+- **CC BY-SA 4.0** - see [LICENSE](./LICENSE). You may copy, modify, and sell deployments. We require attribution to MateMatic + sharing derivatives under the same license.
+- Structural pattern (5-level Maturity Model, 8-criteria Build vs Buy): cherry-picked from [OneC0de/legal-ai-architect-toolkit](https://github.com/OneC0de/legal-ai-architect-toolkit) (MIT, author Donna Scaffidi).
+- Content written from scratch for the Polish market.
 
-Cytowanie: *MateMatic Solutions (2026), matematic-readiness - audyt gotowosci polskiej kancelarii do AI, https://github.com/matematicsolutions/matematic-readiness, CC BY-SA 4.0.*
+Citation: *MateMatic Solutions (2026), matematic-readiness - a law firm AI readiness audit, https://github.com/matematicsolutions/matematic-readiness, CC BY-SA 4.0.*
