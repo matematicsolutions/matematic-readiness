@@ -145,7 +145,7 @@ Niezaleznie czy build, czy buy, kancelaria potrzebuje:
 | Przed wdrozeniem | Klauzula w umowie z klientem | KEA / KEZRP + RODO art. 13/14 |
 | Do 2025-02-02 | AI literacy dla zespolu | AI Act art. 4 |
 | Do 2025-08-02 | Stanowisko nt. uzycia GPAI (art. 51-55) | AI Act |
-| Do 2026-08-02 | Jezeli high-risk: technical documentation, instrukcja, record-keeping | AI Act art. 11-12 |
+| Do 2027-12-02 | Jezeli system z Annex III jest wysokiego ryzyka: obowiazki podmiotu stosujacego, w tym przechowywanie logow i nadzor czlowieka (dokumentacja techniczna i rejestrowanie zdarzen z art. 11-12 to obowiazki dostawcy) | AI Act art. 26; termin po rozporzadzeniu (UE) 2026/1744 |
 | Do 2026-08-02 | Transparentnosc w komunikacji z klientem (art. 50) | AI Act |
 
 ## 6. Powiazane zrodla
