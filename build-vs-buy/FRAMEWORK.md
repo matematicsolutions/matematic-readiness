@@ -76,10 +76,10 @@ Patrz [TCO_CALCULATOR.md](TCO_CALCULATOR.md) - kalkulator orientacyjny.
 
 **Pytanie**: Czy kancelaria potrzebuje **per-request audit trail** (kto, kiedy, jaki prompt, jaki output)?
 
-- TAK (high-risk AI Act, klient z compliance wymogiem, sprawy karne) -> **build** (Patron ma audit trail z hash-chain wbudowany) lub **buy enterprise z eksportem logow**.
+- TAK (system zakwalifikowany jako wysokiego ryzyka, klient z wymogiem compliance, sprawy karne) -> **build** (Patron ma audit trail z hash-chain wbudowany) lub **buy enterprise z eksportem logow**.
 - NIE -> buy general-purpose wystarczy.
 
-Polski kontekst: AI Act art. 12 wymaga record-keeping dla high-risk AI. Kancelaria reprezentujaca klienta w postepowaniu sadowym przy uzyciu AI w analizie dokumentu **prawdopodobnie** wpada w Annex III pkt 8 (administracja sprawiedliwosci).
+Polski kontekst: AI Act art. 12 wymaga rejestrowania zdarzen w systemach wysokiego ryzyka. Kancelaria, ktora uzywa AI do analizy dokumentow we wlasnej sprawie, **zwykle nie** wpada w Annex III pkt 8 - ten obejmuje systemy uzywane przez sad lub w jego imieniu (patrz [POLSKI_KONTEKST.md](POLSKI_KONTEKST.md)). Slad audytowy bywa potrzebny z innych powodow: wymog klienta, tajemnica zawodowa, dowod nalezytej starannosci.
 
 ### Kryterium 7 - Maintenance (waga: 3)
 

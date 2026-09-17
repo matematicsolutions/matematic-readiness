@@ -82,8 +82,11 @@ LEX (Wolters Kluwer Polska), Legalis (CH Beck Polska), Mecenas IT, Praktyczne - 
 
 - **2025-02-02**: rozdz. II (zakazy z art. 5) + AI literacy (art. 4).
 - **2025-08-02**: rozdz. III sek. IV (notyfikacja organow), rozdz. V (GPAI, art. 51-55), rozdz. VII (governance), rozdz. XII (sankcje art. 99) + EU AI Office.
-- **2026-08-02**: rozdz. III (high-risk AI z Annex III i Annex I - **w tym Annex III pkt 8 administracja sprawiedliwosci**), rozdz. IV (transparentnosc art. 50), wiekszosc obowiazkow obowiazkowych.
-- **2027-08-02**: pozostale obowiazki dla zakresow z art. 6(1) (komponenty bezpieczenstwa produktow w Annex I).
+- **2026-08-02**: rozdz. IV (transparentnosc, art. 50) i wiekszosc pozostalych przepisow.
+- **2027-12-02**: systemy wysokiego ryzyka z Annex III (w tym pkt 8 - wymiar sprawiedliwosci). Termin przesunieto z 2026-08-02 rozporzadzeniem (UE) 2026/1744 (Digital Omnibus on AI, Dz.U. L z 24.07.2026).
+- **2028-08-02**: systemy wysokiego ryzyka z Annex I (komponenty bezpieczenstwa produktow).
+
+Daty sprawdzaj w [tekscie skonsolidowanym](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727), bo harmonogram juz raz zmieniono.
 
 ### Co to znaczy dla kancelarii uzywajacej AI
 
@@ -93,12 +96,14 @@ Kancelaria moze byc w 3 roli wedlug AI Act:
 2. **Deployer** (uzytkownik biznesowy) - uzywa systemu AI dostarczonego przez kogos innego. **Najczestsza rola kancelarii**.
 3. **Distributor / Importer** - inne role.
 
-Jako deployer kancelaria ma obowiazki (art. 26-27 AI Act):
+Niezaleznie od kwalifikacji: obowiazki przejrzystosci z art. 50 tam, gdzie maja zastosowanie.
+
+Dopiero gdy system jest **wysokiego ryzyka**, deployer ma dodatkowo obowiazki z art. 26:
 - Stosowac instrukcje uzycia dostarczone przez providera.
-- Zapewnic ludzki nadzor.
-- Monitorowac dzialanie systemu i raportowac incydenty.
-- Przechowywac logi (record-keeping, art. 12).
-- Informowac osoby objete decyzja (transparentnosc, art. 50).
+- Zapewnic nadzor czlowieka.
+- Monitorowac dzialanie systemu i zglaszac incydenty.
+- Przechowywac logi generowane przez system (art. 26 ust. 6; wymog ich tworzenia spoczywa na providerze, art. 12).
+- Informowac osoby, wobec ktorych system wspiera decyzje (art. 26 ust. 11).
 
 ### Czy AI w kancelarii to high-risk?
 
@@ -108,7 +113,7 @@ Jako deployer kancelaria ma obowiazki (art. 26-27 AI Act):
 
 **Interpretacja**: AI uzywane przez **sad** lub **na zlecenie sadu**. Kancelaria uzywajaca AI do **wlasnego** researchu **NIE** wpada w to wprost.
 
-**Ale**: jezeli kancelaria uzywa AI w postepowaniu mediacyjnym/arbitrazowym ("similar way in alternative dispute resolution") - prawdopodobnie tak.
+**Ale**: fragment o ADR dotyczy systemow uzywanych przez organ polubownego rozwiazywania sporow w podobny sposob jak przez sad. Kancelaria reprezentujaca strone w mediacji czy arbitrazu nie staje sie przez to takim organem; kancelaria prowadzaca sama postepowanie polubowne - moze.
 
 **Ostatnie slowo**: konsultacja z komisja AI nadzorcza Polska (wyznaczana przez Minister Cyfryzacji do 2025-08).
 

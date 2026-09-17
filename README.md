@@ -39,7 +39,7 @@ W swiecie anglosaskim "buy" znaczy zazwyczaj amerykanska platforme cloud-only (H
 
 - Transfer danych poza EOG (RODO art. 44+) - wymaga DPA, oceny adekwatnosci, dokumentacji DPF.
 - Tajemnica zawodowa (Prawo o adwokaturze art. 6, Ustawa o radcach prawnych art. 3) - bezwzgledna, transfer akt sprawy do USA wymaga niemozliwej zgody klienta.
-- AI Act art. 6 (high-risk AI w prawie) - od 2026-08-02 wymogi raportowania, audytu, transparentnosci dla okreslonych zastosowan.
+- AI Act - kwalifikacja zalezy od zastosowania, nie od branzy. Kancelaria korzystajaca z AI we wlasnej pracy zwykle nie jest w Annex III pkt 8 (ten dotyczy systemow uzywanych przez sad lub w jego imieniu). Obowiazki przejrzystosci z art. 50 moga dotyczyc takze systemow spoza tej kategorii. Szczegoly i daty: [build-vs-buy/POLSKI_KONTEKST.md](build-vs-buy/POLSKI_KONTEKST.md).
 
 Framework Build vs Buy pomaga zrozumiec **kiedy** te flagi sa krytyczne (czesto), a **kiedy** mniej istotne (rzadko, w polskiej kancelarii). Plus porownanie z polonijnymi platformami (LEX AI w przygotowaniu, Praktyczne, Mecenas AI) i alternatywami self-host (Patron, Cline + Ollama).
 
